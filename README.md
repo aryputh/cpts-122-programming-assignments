@@ -28,10 +28,20 @@ Daily plans are read from files named _dietPlans.txt_ and _exercisePlans.txt_. E
 The FitnessAppWrapper class manages the application, containing two lists of weekly plans (diet and exercise). It provides member functions such as _runApp()_, _loadDailyPlan()_, _loadWeeklyPlan()_, _displayDailyPlan()_, _displayWeeklyPlan()_, _storeDailyPlan()_, _storeWeeklyPlan()_, and _displayMenu()_, all of which are accessible to the user. The _displayMenu()_ function presents the 9 options including loading and storing weekly plans, displaying plans to the screen, editing daily plans, and exiting the application, which saves the most recent weekly plans to corresponding files.
 
 ### Programming Assignment 5
-Coming Soon!
+For this simulation assignment, I created two queues representing an express lane and a normal lane. Each queue node contains customer information such as customer number, service time, and total time. The program generates random arrival times and service times for customers in each lane.<br><br>
+
+The simulation runs for a user-provided number of minutes. Customers arrive every _1-5_ minutes in the express lane and every _3-8_ minutes in the normal lane. Service times vary from _1-5_ minutes for express lane customers and _3-8_ minutes for normal lane customers.<br><br>
+
+During the simulation, messages are printed indicating customer arrival, service, and total time in each lane. Every 10 minutes, the entire queue for each lane is printed.<br><br>
+
+I also implemented test cases using a separate test class to test _enqueue()_ and _dequeue()_ operations on the queues and a test case to run the simulation for 24 hours.
 
 ### Programming Assignment 6
-Coming Soon!
+In this assignment, I used a Binary Search Tree (BST) to convert English characters to Morse code strings.<br><br>
+
+I started by designing the _BSTNode_ class, which had a character and a string as members. The character held the English text character and the string held the corresponding Morse code. I also created a constructor to set the English text character and Morse code string.<br><br>
+
+I then read in the Morse table from a file called _MorseTable.txt_ (which contained a map I made to ensure a balanced tree was made). I built the tree in the constructor of the BST by creating nodes for each character and inserting them into the tree. I implemented a _print()_ function using recursion to traverse the tree in order and a _search()_ function to return the Morse code string for each English character. I also created a destructor that recursively destroys the tree.
 
 ### Programming Assignment 7
 Coming Soon!
