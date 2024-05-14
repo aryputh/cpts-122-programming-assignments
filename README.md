@@ -71,5 +71,5 @@ For this assignment, I implemented a system to detect trends in consumer product
 5. The _DataAnalysis_ class should handle opening the .csv file, reading data, inserting into BSTs, and displaying trends.
 
 ### Programming Assignment 9 (Blueprint, C++)
-This programming assignment was to create a game using C++ that demonstrated our knowledge of inheritence, classes, abstraction, and more.<br><br>
+This programming assignment was to create a game using C++ that demonstrated our knowledge of inheritance, classes, abstraction, and more.<br><br>
 This PA isn't included in this repository, but you can find it [here](https://github.com/aryputh/cpts-122-final). We decided to use Unreal Engine and to form a simple treasure hunt game.
