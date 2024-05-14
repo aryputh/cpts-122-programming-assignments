@@ -59,7 +59,16 @@ In this assignment, I created an application that tracks attendance. There were 
 Just like other PAs, the application keeps running until you choose to exit the app.
 
 ### Programming Assignment 8
-Coming Soon!
+For this assignment, I implemented a system to detect trends in consumer products over a 48-hour period. There are a few requirements:
+1. Class Design
+    - _Node_ Class: An abstract base class that encapsulates data members and member functions for a binary search tree node. It includes setters, getters, and a pure virtual function _printData()_.
+    - _TransactionNode_ Class: Publicly inherits from the abstract base class Node. It includes additional data members for the number of units and overrides the _printData()_ function.
+    - _BST_ Class: Encapsulates a dynamically linked binary search tree. It includes functions for insertion, traversal, finding the smallest and largest nodes, and destroying the tree.
+    - _DataAnalysis_ Class: Manages the analysis process. It includes data members for two BSTs (for sold and purchased products) and an input file stream. Member functions read data from a .csv file, insert data into the correct BST, and display trends.
+2. The system must read product data from a .csv file and store it in two BSTs: one for sold products and one for purchased products.
+3. The system must print the contents of the two BSTs, along with the most and least bought/sold products.
+4. The BSTs should be organized efficiently to allow better than linear time insertion in most cases.
+5. The _DataAnalysis_ class should handle opening the .csv file, reading data, inserting into BSTs, and displaying trends.
 
 ### Programming Assignment 9
 This programming assignment was to create a game using C++ that demonstrated our knowledge of inheritence, classes, abstraction, and more.<br><br>
