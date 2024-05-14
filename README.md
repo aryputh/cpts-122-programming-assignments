@@ -44,7 +44,19 @@ I started by designing the _BSTNode_ class, which had a character and a string a
 I then read in the Morse table from a file called _MorseTable.txt_ (which contained a map I made to ensure a balanced tree was made). I built the tree in the constructor of the BST by creating nodes for each character and inserting them into the tree. I implemented a _print()_ function using recursion to traverse the tree in order and a _search()_ function to return the Morse code string for each English character. I also created a destructor that recursively destroys the tree.
 
 ### Programming Assignment 7
-Coming Soon!
+In this assignment, I created an application that tracks attendance. There were 4 main requirements:
+1. The application must import records from a course list stored in a comma-separated values (.csv) file. Each record consists of fields such as record number, ID number, name, email, units, program, and standing. The records are inserted into a singly linked list with a custom stack data structure for tracking absences.
+2. The application allows the user to mark each student as present or absent for the current day. The date is derived from the computer's system date, and absences are stored in a stack within each student's record.
+3. The application generates two versions of reports. The first version shows all students in the class along with the number of absences and the date of the most recent absence. The second version provides only the names of students absent for a number of times greater than a user-given number.
+4. At startup, the application displays a menu with six options:
+    - Import course list
+    - Load master list
+    - Store master list
+    - Mark absences
+    - Generate report
+    - Exit application
+
+Just like other PAs, the application keeps running until you choose to exit the app.
 
 ### Programming Assignment 8
 Coming Soon!
